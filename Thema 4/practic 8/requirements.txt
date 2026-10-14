@@ -1,0 +1,6 @@
+# Python 3.10–3.13 (перевірено на Python 3.13). Python 3.14 TensorFlow 2.21 НЕ підтримує.
+tensorflow==2.21.0
+numpy==2.5.4
+scikit-learn==1.9.1
+matplotlib==3.11.2
+pillow==12.3.0
