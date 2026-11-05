@@ -1,0 +1,551 @@
+{
+  "variant_1": {
+    "n_raw": 161,
+    "n_clean": 153,
+    "n_dups": 3,
+    "n_swapped": 4,
+    "n_invalid": 5,
+    "by_type": {
+      "Артилерійський обстріл": 58,
+      "Активність БПЛА": 46,
+      "Штурмова дія": 34,
+      "Радіоелектронне подавлення": 15
+    },
+    "by_sector": {
+      "Західний вузол": {
+        "count": 38,
+        "mean": 6.23,
+        "median": 6.3
+      },
+      "Південна ділянка": {
+        "count": 32,
+        "mean": 6.03,
+        "median": 5.85
+      },
+      "Північний рубіж": {
+        "count": 35,
+        "mean": 6.29,
+        "median": 6.4
+      },
+      "Східний виступ": {
+        "count": 48,
+        "mean": 5.84,
+        "median": 6.25
+      }
+    },
+    "peak_date": "2026-10-08",
+    "peak_date_count": 14,
+    "mean_intensity": 6.08,
+    "std_intensity": 2.24
+  },
+  "variant_2": {
+    "n_clean": 118,
+    "n_bad_removed": 2,
+    "agg_stats": {
+      "Північний напрямок": {
+        "count": 30,
+        "sum": 475.0,
+        "mean": 15.83,
+        "median": 16.0,
+        "std": 3.94,
+        "max": 24.0
+      },
+      "Східний напрямок": {
+        "count": 30,
+        "sum": 824.0,
+        "mean": 27.47,
+        "median": 27.0,
+        "std": 5.04,
+        "max": 40.0
+      },
+      "Південний напрямок": {
+        "count": 30,
+        "sum": 574.0,
+        "mean": 19.13,
+        "median": 19.0,
+        "std": 2.98,
+        "max": 27.0
+      },
+      "Західний напрямок": {
+        "count": 28,
+        "sum": 293.0,
+        "mean": 10.46,
+        "median": 10.0,
+        "std": 3.49,
+        "max": 22.0
+      }
+    },
+    "total_attacks": 2166,
+    "peak_row": {
+      "date": "2026-10-12",
+      "direction": "Східний напрямок",
+      "attacks_per_day": 40.0
+    }
+  },
+  "variant_3": {
+    "personnel_total": 4000,
+    "equipment_total": 500,
+    "personnel_breakdown": [
+      {
+        "branch": "Механізовані підрозділи",
+        "subcategory": "Піхотні роти",
+        "quantity": 1420,
+        "share_pct": 35.5
+      },
+      {
+        "branch": "Артилерійські підрозділи",
+        "subcategory": "Ствольна артилерія",
+        "quantity": 540,
+        "share_pct": 13.5
+      },
+      {
+        "branch": "Підрозділи забезпечення",
+        "subcategory": "Логістика, зв'язок та РЕБ",
+        "quantity": 510,
+        "share_pct": 12.75
+      },
+      {
+        "branch": "Підрозділи забезпечення",
+        "subcategory": "Інженерно-саперні групи",
+        "quantity": 390,
+        "share_pct": 9.75
+      },
+      {
+        "branch": "Підрозділи БПЛА та розвідки",
+        "subcategory": "Екіпажі ударних БПЛА",
+        "quantity": 340,
+        "share_pct": 8.5
+      },
+      {
+        "branch": "Механізовані підрозділи",
+        "subcategory": "Танкові екіпажі",
+        "quantity": 310,
+        "share_pct": 7.75
+      },
+      {
+        "branch": "Підрозділи БПЛА та розвідки",
+        "subcategory": "Екіпажі розвідувальних БПЛА",
+        "quantity": 280,
+        "share_pct": 7.0
+      },
+      {
+        "branch": "Артилерійські підрозділи",
+        "subcategory": "Реактивна артилерія",
+        "quantity": 210,
+        "share_pct": 5.25
+      }
+    ],
+    "equipment_breakdown": [
+      {
+        "branch": "Бойові броньовані машини",
+        "subcategory": "БМП та БТР",
+        "quantity": 138,
+        "share_pct": 27.6
+      },
+      {
+        "branch": "Бойові броньовані машини",
+        "subcategory": "Бронеавтомобілі",
+        "quantity": 94,
+        "share_pct": 18.8
+      },
+      {
+        "branch": "Артилерійські системи",
+        "subcategory": "Самохідні та причіпні гаубиці",
+        "quantity": 84,
+        "share_pct": 16.8
+      },
+      {
+        "branch": "Спеціальна та інженерна техніка",
+        "subcategory": "Засоби РЕБ, зв'язку та тягачі",
+        "quantity": 70,
+        "share_pct": 14.0
+      },
+      {
+        "branch": "Танки",
+        "subcategory": "Основні бойові танки",
+        "quantity": 62,
+        "share_pct": 12.4
+      },
+      {
+        "branch": "Артилерійські системи",
+        "subcategory": "РСЗВ та міномети",
+        "quantity": 52,
+        "share_pct": 10.4
+      }
+    ]
+  },
+  "variant_4": {
+    "units": [
+      {
+        "unit_code": "ОМБр-А («Північ»)",
+        "staffing_pct_raw": 92.0,
+        "equip_serviceable_pct_raw": 86.0,
+        "ammo_days_raw": 5.4,
+        "training_hours_raw": 148.0,
+        "c2_readiness_index_raw": 88.0,
+        "is_synthetic_training_data": true,
+        "p1_staffing_score": 92.0,
+        "p2_equipment_score": 86.0,
+        "p3_ammo_score": 90.0,
+        "p4_training_score": 92.5,
+        "p5_c2_score": 88.0,
+        "integral_mean_score": 89.7
+      },
+      {
+        "unit_code": "ОМБр-Б («Схід»)",
+        "staffing_pct_raw": 84.0,
+        "equip_serviceable_pct_raw": 79.0,
+        "ammo_days_raw": 5.8,
+        "training_hours_raw": 152.0,
+        "c2_readiness_index_raw": 91.0,
+        "is_synthetic_training_data": true,
+        "p1_staffing_score": 84.0,
+        "p2_equipment_score": 79.0,
+        "p3_ammo_score": 96.7,
+        "p4_training_score": 95.0,
+        "p5_c2_score": 91.0,
+        "integral_mean_score": 89.14
+      },
+      {
+        "unit_code": "ОШБ-В («Південь»)",
+        "staffing_pct_raw": 95.0,
+        "equip_serviceable_pct_raw": 91.0,
+        "ammo_days_raw": 4.2,
+        "training_hours_raw": 156.0,
+        "c2_readiness_index_raw": 84.0,
+        "is_synthetic_training_data": true,
+        "p1_staffing_score": 95.0,
+        "p2_equipment_score": 91.0,
+        "p3_ammo_score": 70.0,
+        "p4_training_score": 97.5,
+        "p5_c2_score": 84.0,
+        "integral_mean_score": 87.5
+      },
+      {
+        "unit_code": "БТрО-Г («Резерв»)",
+        "staffing_pct_raw": 89.0,
+        "equip_serviceable_pct_raw": 72.0,
+        "ammo_days_raw": 4.8,
+        "training_hours_raw": 118.0,
+        "c2_readiness_index_raw": 76.0,
+        "is_synthetic_training_data": true,
+        "p1_staffing_score": 89.0,
+        "p2_equipment_score": 72.0,
+        "p3_ammo_score": 80.0,
+        "p4_training_score": 73.8,
+        "p5_c2_score": 76.0,
+        "integral_mean_score": 78.16
+      }
+    ],
+    "leader": "ОМБр-А («Північ»)",
+    "leader_score": 89.7
+  },
+  "variant_5": {
+    "n_nodes": 11,
+    "n_edges": 22,
+    "centralities": [
+      {
+        "node_id": "Ретранслятор-1",
+        "in_degree_centrality": 0.3,
+        "out_degree_centrality": 0.3,
+        "total_degree_centrality": 0.6,
+        "betweenness_centrality": 0.2556,
+        "closeness_centrality": 0.5,
+        "in_links_count": 3,
+        "out_links_count": 3
+      },
+      {
+        "node_id": "КП Бр-2",
+        "in_degree_centrality": 0.3,
+        "out_degree_centrality": 0.3,
+        "total_degree_centrality": 0.6,
+        "betweenness_centrality": 0.1574,
+        "closeness_centrality": 0.3125,
+        "in_links_count": 3,
+        "out_links_count": 3
+      },
+      {
+        "node_id": "КП Бр-1",
+        "in_degree_centrality": 0.3,
+        "out_degree_centrality": 0.3,
+        "total_degree_centrality": 0.6,
+        "betweenness_centrality": 0.1574,
+        "closeness_centrality": 0.3125,
+        "in_links_count": 3,
+        "out_links_count": 3
+      },
+      {
+        "node_id": "Вузол розвідки",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.2,
+        "total_degree_centrality": 0.3,
+        "betweenness_centrality": 0.1222,
+        "closeness_centrality": 0.4545,
+        "in_links_count": 1,
+        "out_links_count": 2
+      },
+      {
+        "node_id": "Логістичний центр",
+        "in_degree_centrality": 0.3,
+        "out_degree_centrality": 0.2,
+        "total_degree_centrality": 0.5,
+        "betweenness_centrality": 0.1111,
+        "closeness_centrality": 0.3125,
+        "in_links_count": 3,
+        "out_links_count": 2
+      },
+      {
+        "node_id": "КП ОТУ",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.4,
+        "total_degree_centrality": 0.5,
+        "betweenness_centrality": 0.0852,
+        "closeness_centrality": 0.5263,
+        "in_links_count": 1,
+        "out_links_count": 4
+      },
+      {
+        "node_id": "Підрозділ РЕБ",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.1,
+        "total_degree_centrality": 0.2,
+        "betweenness_centrality": 0.0556,
+        "closeness_centrality": 0.3448,
+        "in_links_count": 1,
+        "out_links_count": 1
+      },
+      {
+        "node_id": "ЦУ БПЛА",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.2,
+        "total_degree_centrality": 0.3,
+        "betweenness_centrality": 0.0222,
+        "closeness_centrality": 0.4167,
+        "in_links_count": 1,
+        "out_links_count": 2
+      },
+      {
+        "node_id": "КП Артгрупи",
+        "in_degree_centrality": 0.4,
+        "out_degree_centrality": 0.0,
+        "total_degree_centrality": 0.4,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.0,
+        "in_links_count": 4,
+        "out_links_count": 0
+      },
+      {
+        "node_id": "Передовий ПУ-1",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.1,
+        "total_degree_centrality": 0.2,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.2083,
+        "in_links_count": 1,
+        "out_links_count": 1
+      },
+      {
+        "node_id": "Передовий ПУ-2",
+        "in_degree_centrality": 0.1,
+        "out_degree_centrality": 0.1,
+        "total_degree_centrality": 0.2,
+        "betweenness_centrality": 0.0,
+        "closeness_centrality": 0.2083,
+        "in_links_count": 1,
+        "out_links_count": 1
+      }
+    ]
+  },
+  "variant_6": {
+    "n_clean": 118,
+    "loss_correlations": {
+      "Час доби: sin(2πt/24)": {
+        "pearson_r": 0.243,
+        "pearson_p": 0.0079753,
+        "spearman_rho": 0.248,
+        "spearman_p": 0.0067542
+      },
+      "Час доби: cos(2πt/24)": {
+        "pearson_r": -0.379,
+        "pearson_p": 2.29e-05,
+        "spearman_rho": -0.362,
+        "spearman_p": 5.5598e-05
+      },
+      "Вильоти розвід. БПЛА (од.)": {
+        "pearson_r": 0.473,
+        "pearson_p": 6.3947e-08,
+        "spearman_rho": 0.464,
+        "spearman_p": 1.2062e-07
+      },
+      "Інтенсивність обстрілів (залпів)": {
+        "pearson_r": 0.538,
+        "pearson_p": 3.245e-10,
+        "spearman_rho": 0.559,
+        "spearman_p": 4.8035e-11
+      },
+      "Рівень РЕБ-подавлення (дБ)": {
+        "pearson_r": -0.027,
+        "pearson_p": 0.76851,
+        "spearman_rho": -0.001,
+        "spearman_p": 0.98799
+      },
+      "Затримка реакції (хв)": {
+        "pearson_r": 0.393,
+        "pearson_p": 1.0463e-05,
+        "spearman_rho": 0.347,
+        "spearman_p": 0.00011811
+      },
+      "Інженерне обладнання (бал)": {
+        "pearson_r": -0.499,
+        "pearson_p": 9.204e-09,
+        "spearman_rho": -0.486,
+        "spearman_p": 2.3971e-08
+      }
+    }
+  },
+  "variant_7": {
+    "n_rows": 108,
+    "total_events": 153,
+    "total_duration": 11254
+  },
+  "variant_8": {
+    "n_clean": 178,
+    "stats_summary": {
+      "БПЛА-Р1 «Лелека-Н»": {
+        "flight_duration_min": {
+          "mean": 136.6,
+          "median": 136.25,
+          "std": 13.03,
+          "iqr": 17.6
+        },
+        "effective_range_km": {
+          "mean": 41.92,
+          "median": 41.66,
+          "std": 5.09,
+          "iqr": 7.15
+        },
+        "target_cep_m": {
+          "mean": 4.74,
+          "median": 4.76,
+          "std": 0.39,
+          "iqr": 0.64
+        }
+      },
+      "БПЛА-Р2 «Фурія-Н»": {
+        "flight_duration_min": {
+          "mean": 94.24,
+          "median": 94.05,
+          "std": 11.53,
+          "iqr": 15.53
+        },
+        "effective_range_km": {
+          "mean": 28.52,
+          "median": 28.64,
+          "std": 2.92,
+          "iqr": 3.91
+        },
+        "target_cep_m": {
+          "mean": 3.65,
+          "median": 3.66,
+          "std": 0.37,
+          "iqr": 0.46
+        }
+      },
+      "БПЛА-К3 «Сокіл-М»": {
+        "flight_duration_min": {
+          "mean": 43.9,
+          "median": 43.1,
+          "std": 5.0,
+          "iqr": 7.4
+        },
+        "effective_range_km": {
+          "mean": 9.49,
+          "median": 9.22,
+          "std": 1.27,
+          "iqr": 1.77
+        },
+        "target_cep_m": {
+          "mean": 7.31,
+          "median": 7.18,
+          "std": 0.69,
+          "iqr": 1.02
+        }
+      },
+      "БПЛА-У4 «Грім-У»": {
+        "flight_duration_min": {
+          "mean": 119.42,
+          "median": 118.7,
+          "std": 16.1,
+          "iqr": 17.7
+        },
+        "effective_range_km": {
+          "mean": 35.65,
+          "median": 35.89,
+          "std": 4.73,
+          "iqr": 5.56
+        },
+        "target_cep_m": {
+          "mean": 2.46,
+          "median": 2.37,
+          "std": 0.32,
+          "iqr": 0.38
+        }
+      }
+    }
+  },
+  "variant_9": {
+    "total_km": 65,
+    "high_risk_segments": [
+      {
+        "distance_km": 15,
+        "checkpoint_name": "КТ-04: Понтонна переправа",
+        "obstacle_type": "Вузький міст / переправа",
+        "avg_speed_kmh": 24,
+        "road_load_pct": 88,
+        "composite_risk_index": 7.6
+      },
+      {
+        "distance_km": 20,
+        "checkpoint_name": "КТ-05: Висота 142",
+        "obstacle_type": "Відкрита ділянка (БПЛА)",
+        "avg_speed_kmh": 38,
+        "road_load_pct": 74,
+        "composite_risk_index": 6.8
+      },
+      {
+        "distance_km": 35,
+        "checkpoint_name": "КТ-08: Залізничний переїзд",
+        "obstacle_type": "Зруйнований шляхопровід",
+        "avg_speed_kmh": 28,
+        "road_load_pct": 82,
+        "composite_risk_index": 7.2
+      },
+      {
+        "distance_km": 45,
+        "checkpoint_name": "КТ-10: Перехрестя Р-14",
+        "obstacle_type": "Зона періодичного обстрілу",
+        "avg_speed_kmh": 34,
+        "road_load_pct": 91,
+        "composite_risk_index": 8.7
+      },
+      {
+        "distance_km": 50,
+        "checkpoint_name": "КТ-11: Яр Глибокий",
+        "obstacle_type": "Мінно-небезпечне узбіччя",
+        "avg_speed_kmh": 36,
+        "road_load_pct": 79,
+        "composite_risk_index": 7.4
+      }
+    ],
+    "mean_speed": 43.4,
+    "est_transit_time_min": 100.5
+  },
+  "variant_10": {
+    "start_val_d0": 78.24,
+    "end_opt": 88.04,
+    "end_base": 61.44,
+    "end_pess": 26.44,
+    "spread_d14": 61.6,
+    "pess_critical_cross_date": "2026-11-08"
+  }
+}
